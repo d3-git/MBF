@@ -50,3 +50,5 @@ $ cd MBF
 $ python2 run.py
 
 Login menggunakan cookies facebook. Cara Mendapatkan Cookies : https://youtu.be/3Y6xsMB3wRg
+
+Telegram saya : http://t.me/rozhakxd (anda bisa melaporkan bug melalui telegram)
