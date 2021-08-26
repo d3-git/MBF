@@ -1,5 +1,5 @@
 # Menu :
-• Dump Dari Pencarian Nama
+• Dump Dari Pencarian Nama Fast
 
 • Dump Dari Teman Fast
 
