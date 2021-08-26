@@ -1,5 +1,6 @@
 # MBF
 Perintah :
+
 $ pkg update && upgrade
 
 $ pkg install git
@@ -18,4 +19,4 @@ $ cd MBF
 
 $ python2 run.py
 
-Login menggunakan cookies facebook. Cara Mendapatkan Cookies : 
+Login menggunakan cookies facebook. Cara Mendapatkan Cookies : https://youtu.be/3Y6xsMB3wRg
