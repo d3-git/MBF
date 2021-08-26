@@ -13,7 +13,7 @@
 
 • Dump Dari Pesan Slow
 
-• Start Crack ID
+• Start Crack
 
 • Lihat Hasil Crack
 
