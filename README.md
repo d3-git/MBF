@@ -1,5 +1,36 @@
 # MBF
-Perintah :
+# Menu :
+• Dump Dari Pencarian Nama
+
+• Dump Dari Teman Fast
+
+• Dump Dari Publik Fast/Slow
+
+• Dump Dari Follower Fast
+
+• Dump Dari Like Slow
+
+• Dump Dari Grub Slow
+
+• Dump Dari Pesan Slow
+
+• Start Crack ID
+
+• Lihat Hasil Crack
+
+• Checker Account (Gk Ada Opsi Chekpoint)
+
+# Metode Crack
+
+• Metode mbasic.facebook.com
+
+• Metode m.facebook.com
+
+• Metode free.facebook.com
+
+• Metode graph.facebook.com
+
+# Perintah :
 
 $ pkg update && upgrade
 
